@@ -1,0 +1,2 @@
+str_manip = input("Enter your sentence here: ")
+print ("str_manip")

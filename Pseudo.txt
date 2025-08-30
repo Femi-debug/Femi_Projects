@@ -1,0 +1,43 @@
+Set largest_number to zero
+Request input from user
+While the input is  less than zero
+	request input from user again
+While input is greater than zero
+	store input into variable called "new_number" for later output
+	Set largest_number to new_number
+	request input from user	again
+When new_number is equal to zero
+	print largest number from "largest_number"
+
+Request first name from user
+Store name into variable called “first_name”
+Print first_name + Hello_World
+
+Request intergers from user
+Set total_sum of intergers to zero
+Set counter to one
+While input is not equal to zero collect intergers from user
+Once integers have been collected
+	Add the intergers to total_sum of 
+	Add the total number of integers to counter
+Calculate the average of the intergers by average = total_sum / counter
+Print intergers average 
+
+Request grocery list from user
+Store inputs into variable called “groceries”
+SORT "groceries" by "brought" and "not_brought"
+If "brought":
+	remove input from variable "groceries"
+Else
+	store input into "groceries"
+When all inputs have been added to "groceries" 
+	SORT "groceries" in alaphabetical order from A to Z
+	print "groceries"
+
+Request an integer and store it in a variable titled "X".
+Request another integer and store it in a variable titled "Y".
+Add X and Y, and store the result in a variable named "S".
+Divide S by 2 and store result in a variable named "A"
+Multiply X and Y store result in a variable named "P"
+When variables S,A, and P have been stored
+	print S, A, and P
